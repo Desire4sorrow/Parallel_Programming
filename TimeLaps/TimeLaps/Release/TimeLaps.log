@@ -1,0 +1,8 @@
+﻿  TimeLaps.cpp
+C:\Users\Руслан\source\repos\TimeLaps\TimeLaps\TimeLaps.cpp(58,37): warning C4244: аргумент: преобразование "uint64_t" в "DWORD_PTR", возможна потеря данных
+  Создание кода
+  1 of 185 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  TimeLaps.vcxproj -> C:\Users\Руслан\source\repos\TimeLaps\Release\TimeLaps.exe

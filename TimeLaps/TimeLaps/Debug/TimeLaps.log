@@ -1,0 +1,3 @@
+﻿  TimeLaps.cpp
+C:\Users\Руслан\source\repos\TimeLaps\TimeLaps\TimeLaps.cpp(58,37): warning C4244: аргумент: преобразование "uint64_t" в "DWORD_PTR", возможна потеря данных
+  TimeLaps.vcxproj -> C:\Users\Руслан\source\repos\TimeLaps\Debug\TimeLaps.exe
