@@ -1,0 +1,14 @@
+﻿  main.cpp
+C:\Users\Руслан\source\repos\lw2\main.cpp(250,14): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\Руслан\source\repos\lw2\main.cpp(252,41): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Руслан\source\repos\lw2\main.cpp(254,43): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Руслан\source\repos\lw2\main.cpp(259,25): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\Руслан\source\repos\lw2\main.cpp(261,29): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\Руслан\source\repos\lw2\main.cpp(279,34): warning C4244: =: преобразование "double" в "uint8_t", возможна потеря данных
+C:\Users\Руслан\source\repos\lw2\main.cpp(280,34): warning C4244: =: преобразование "double" в "uint8_t", возможна потеря данных
+C:\Users\Руслан\source\repos\lw2\main.cpp(281,34): warning C4244: =: преобразование "double" в "uint8_t", возможна потеря данных
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 224 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  lw2.vcxproj -> C:\Users\Руслан\source\repos\lw2\x64\Release\lw2.exe
