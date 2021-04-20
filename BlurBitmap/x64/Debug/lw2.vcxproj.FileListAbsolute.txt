@@ -1,1 +1,2 @@
 C:\Users\Руслан\source\repos\lw2\x64\Debug\lw2.exe
+C:\Users\Руслан\Documents\GitHub\Parallel_Programming\BlurBitmap\x64\Debug\lw2.exe

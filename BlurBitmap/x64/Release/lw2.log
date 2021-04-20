@@ -1,14 +1,15 @@
-﻿  main.cpp
-C:\Users\Руслан\source\repos\lw2\main.cpp(250,14): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-C:\Users\Руслан\source\repos\lw2\main.cpp(252,41): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Руслан\source\repos\lw2\main.cpp(254,43): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Руслан\source\repos\lw2\main.cpp(259,25): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-C:\Users\Руслан\source\repos\lw2\main.cpp(261,29): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-C:\Users\Руслан\source\repos\lw2\main.cpp(279,34): warning C4244: =: преобразование "double" в "uint8_t", возможна потеря данных
-C:\Users\Руслан\source\repos\lw2\main.cpp(280,34): warning C4244: =: преобразование "double" в "uint8_t", возможна потеря данных
-C:\Users\Руслан\source\repos\lw2\main.cpp(281,34): warning C4244: =: преобразование "double" в "uint8_t", возможна потеря данных
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: промежуточный каталог (x64\Release\) содержит файлы, которые используются совместно с другим проектом (lw2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  main.cpp
+C:\Users\Руслан\Documents\GitHub\Parallel_Programming\BlurBitmap\main.cpp(234,14): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\Руслан\Documents\GitHub\Parallel_Programming\BlurBitmap\main.cpp(236,41): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Руслан\Documents\GitHub\Parallel_Programming\BlurBitmap\main.cpp(238,43): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Руслан\Documents\GitHub\Parallel_Programming\BlurBitmap\main.cpp(243,25): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\Руслан\Documents\GitHub\Parallel_Programming\BlurBitmap\main.cpp(245,29): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\Руслан\Documents\GitHub\Parallel_Programming\BlurBitmap\main.cpp(263,34): warning C4244: =: преобразование "double" в "uint8_t", возможна потеря данных
+C:\Users\Руслан\Documents\GitHub\Parallel_Programming\BlurBitmap\main.cpp(264,34): warning C4244: =: преобразование "double" в "uint8_t", возможна потеря данных
+C:\Users\Руслан\Documents\GitHub\Parallel_Programming\BlurBitmap\main.cpp(265,34): warning C4244: =: преобразование "double" в "uint8_t", возможна потеря данных
   Создание кода
   Previous IPDB not found, fall back to full compilation.
-  All 224 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 196 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Создание кода завершено
-  lw2.vcxproj -> C:\Users\Руслан\source\repos\lw2\x64\Release\lw2.exe
+  lw2.vcxproj -> C:\Users\Руслан\Documents\GitHub\Parallel_Programming\BlurBitmap\x64\Release\BlurBitmap.exe

@@ -89,23 +89,7 @@ Bitmap::Bitmap(const char* path) : bmpInfo(), pixels(nullptr)
     {
         file.read(reinterpret_cast<char*>(&bmpInfo.bfh), sizeof(bmpInfo.bfh));
 
-        if (bmpInfo.bfh.bfType != 0x4d42)
-        {
-            throw std::runtime_error("Invalid format. Only bitmaps are supported.");
-        }
-
         file.read(reinterpret_cast<char*>(&bmpInfo.bih), sizeof(bmpInfo.bih));
-
-        if (bmpInfo.bih.biCompression != 0)
-        {
-            std::cerr << bmpInfo.bih.biCompression << "\n";
-            throw std::runtime_error("Invalid bitmap. Only uncompressed bitmaps are supported.");
-        }
-
-        if (bmpInfo.bih.biBitCount != 24 && bmpInfo.bih.biBitCount != 32)
-        {
-            throw std::runtime_error("Invalid bitmap. Only 24bit and 32bit bitmaps are supported.");
-        }
 
         file.seekg(bmpInfo.bfh.bfOffBits, std::ios::beg);
 
@@ -177,7 +161,7 @@ void Bitmap::save(const char* path, uint16_t bit_count)
             }
         }
 
-        file.write(reinterpret_cast<char*>(&temp[0]), size); //bmpInfo.bfh.bfSize - bmpInfo.bfh.bfOffBits
+        file.write(reinterpret_cast<char*>(&temp[0]), size); 
         delete[] temp;
     }
 }
@@ -303,30 +287,14 @@ unsigned long ConvertDigitStringIntoNumber(const std::string& valueLine)
         throw;
     }
 
-    if (valueLine[stoppedAt] != '\0')
-    {
-        throw std::invalid_argument("Numver should not contain letters");
-    }
-
     return number;
 }
 
 Args ParseArgs(int argc, const char* argv[])
 {
-    if (argc != 5)
-    {
-        throw std::invalid_argument("Invalid argument count");
-    }
-
-
     Args args;
     args.threadsCount = ConvertDigitStringIntoNumber(argv[3]);
     args.coresCount = ConvertDigitStringIntoNumber(argv[4]);
-
-    if (args.threadsCount < 0 || args.coresCount < 0)
-    {
-        throw std::invalid_argument("Threads and cores count should be more than 0");
-    }
 
     return args;
 }
@@ -403,7 +371,7 @@ int main(int argc, const char* argv[])
         bmp.save(argv[2]);
         auto end = std::chrono::high_resolution_clock::now();
         auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(end - begin);
-        std::cout << "Execution time: " + std::to_string(elapsed.count());
+        std::cout << std::to_string(elapsed.count());
 
     }
     catch (const std::exception& e)
