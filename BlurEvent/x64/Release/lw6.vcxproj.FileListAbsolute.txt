@@ -1,0 +1,2 @@
+C:\Users\Руслан\Documents\lw6\x64\Release\lw6.exe
+C:\Users\Руслан\source\repos\lab6\x64\Release\lw6.exe

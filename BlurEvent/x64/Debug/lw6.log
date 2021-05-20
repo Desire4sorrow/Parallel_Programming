@@ -1,0 +1,11 @@
+﻿  main.cpp
+C:\Users\Руслан\Documents\lw6\LogBuffer.h(43,39): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+C:\Users\Руслан\Documents\lw6\main.cpp(262,14): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\Руслан\Documents\lw6\main.cpp(264,40): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Руслан\Documents\lw6\main.cpp(266,43): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Руслан\Documents\lw6\main.cpp(271,25): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\Руслан\Documents\lw6\main.cpp(273,29): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\Руслан\Documents\lw6\main.cpp(291,34): warning C4244: =: преобразование "double" в "uint8_t", возможна потеря данных
+C:\Users\Руслан\Documents\lw6\main.cpp(292,34): warning C4244: =: преобразование "double" в "uint8_t", возможна потеря данных
+C:\Users\Руслан\Documents\lw6\main.cpp(293,34): warning C4244: =: преобразование "double" в "uint8_t", возможна потеря данных
+  lw6.vcxproj -> C:\Users\Руслан\Documents\lw6\x64\Debug\lw6.exe
